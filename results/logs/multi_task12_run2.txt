@@ -1,0 +1,16 @@
+  🗺️ Plan:
+1. Open and read the `inventory.csv` file to locate the information regarding the chairs in the inventory.
+2. Check the structure of the `inventory.csv` file to identify how the data is organized (e.g., if there is a specific column for item type and quantity).
+3. Filter or calculate the total number of chairs listed in the `inventory.csv`, if necessary by summing up quantities where the item type corresponds to chairs.
+4. Review `sales.csv` to see if there are any sales related to chairs that might affect the inventory count (if checking for current inventory levels).
+5. Optionally, scan the `emails.txt` and `employees.csv` files for any relevant communication or notes regarding chairs in the inventory that might provide additional context.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 calculator({'expression': '25'})
+  👷 Worker answer: There are 25 chairs in the inventory.
+  🔍 Checker: OK
+

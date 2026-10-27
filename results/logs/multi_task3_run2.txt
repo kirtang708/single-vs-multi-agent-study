@@ -1,0 +1,20 @@
+  🗺️ Plan:
+1. Read the "emails.txt" file to find any correspondence from Priya regarding the meeting change.
+2. Search through the "calendar.csv" file to see if there are any entries reflecting the proposed new meeting time from Priya.
+3. Check the "employees.csv" file to confirm Priya's email or other contact information, in case further clarification is needed.
+4. Review the "inventory.csv" and "sales.csv" files if the other files do not provide sufficient information regarding the meeting change.
+5. Compile the findings to determine the exact day and time Priya asked to move the meeting to.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 calculator({'expression': '2026-11-05 + 1'})
+  👷 Worker answer: Based on the findings:
+
+1. **Emails.txt**: Priya requested to move Thursday's meeting to Friday at 2 PM.
+2. **Calendar.csv**: The only relevant Thursday meeting scheduled is the Budget review on November 5, 2026. The new meeting would then be on November 6, 2026.
+
+In summary, Priya asked to move the meeting to **Friday, November 6, 2026, at 2 PM**.
+  🔍 Checker: OK
+

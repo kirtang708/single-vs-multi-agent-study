@@ -1,0 +1,11 @@
+  🗺️ Plan:
+1. Read the `employees.csv` file to find the list of employees and their corresponding departments and salaries.
+2. Filter the data from the `employees.csv` file to get only the records for the Engineering department.
+3. Calculate the average salary based on the filtered data from the Engineering department.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 calculator({'expression': '(95000 + 105000) / 2'})
+  👷 Worker answer: The average salary in the Engineering department is $100,000.
+  🔍 Checker: OK
+

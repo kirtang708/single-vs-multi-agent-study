@@ -1,0 +1,7 @@
+  🔧 list_files({}) → calendar.csv, emails.txt, employees.csv, inventory.csv, sale
+  🔧 read_file({'filename': 'inventory.csv'}) → item,category,quantity,unit_price
+Laptop,Electronics,12,900
+
+  🔧 calculator({'expression': '350*8'}) → 2800
+  🔧 calculator({'expression': '120*25'}) → 3000
+  🔧 calculator({'expression': '(2800 + 3000) / (8 + 25)'}) → 175.75757575757575

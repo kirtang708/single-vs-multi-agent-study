@@ -1,0 +1,13 @@
+  🗺️ Plan:
+1. Read the **calendar.csv** file to determine the date range for February.
+2. Read the **sales.csv** file to identify all sales transactions that occurred in February.
+3. Filter the relevant sales data to extract North's revenue for February.
+4. Calculate the total revenue for North based on the filtered sales data.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 calculator({'expression': '11000'})
+  👷 Worker answer: North's revenue in February was $11,000.
+  🔍 Checker: OK
+

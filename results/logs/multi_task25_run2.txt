@@ -1,0 +1,25 @@
+  🗺️ Plan:
+1. Read the **calendar.csv** file to find out which day Priya wants to move the meeting to and list the events scheduled for that day.
+2. Check the **emails.txt** file for any communication from Priya regarding the rescheduling details, including the new day she proposed.
+3. If necessary, review the **employees.csv** file to identify if there are any constraints or conflicts with employee availability on the new day.
+4. Confirm any additional conflicts by briefly checking the **sales.csv** and **inventory.csv** files, although their relevance might be lower in this context. 
+5. Compile a list of events from the calendar that are scheduled on that new day.
+
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 calculator({'expression': '2*60+0'})
+     🔧 calculator({'expression': '11*60+0'})
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 read_file({'filename': 'inventory.csv'})
+  👷 Worker answer: Priya proposed to move Thursday's meeting (Budget review at 11:00 AM) to Friday at 2 PM. 
+
+Checking the calendar for events on Friday (November 6, 2026):
+
+- **Product demo** is scheduled at 3:00 PM.
+
+Thus, the only event on the new proposed day (Friday) is the "Product demo" at 3:00 PM. 
+
+Final answer: Event scheduled on the new day (Friday): Product demo at 3:00 PM.
+  🔍 Checker: OK
+

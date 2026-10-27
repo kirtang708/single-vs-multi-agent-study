@@ -1,0 +1,15 @@
+  🗺️ Plan:
+1. Read the `employees.csv` file to identify the salary and department information for both Carlos and Dina.
+2. Extract the department names for Carlos and Dina from the `employees.csv` file.
+3. Calculate the total salary for Carlos's department by aggregating the salaries of all employees in that department using the data in the `employees.csv` file.
+4. Calculate the total salary for Dina's department in the same manner.
+5. Subtract the total salary of Dina's department from the total salary of Carlos's department to get the final result.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 calculator({'expression': '95000 + 105000'})
+     🔧 calculator({'expression': '65000'})
+     🔧 calculator({'expression': '200000 - 65000'})
+  👷 Worker answer: The total salary of Carlos's department minus the total salary of Dina's department is $135,000.
+  🔍 Checker: OK
+

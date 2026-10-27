@@ -1,0 +1,17 @@
+  🗺️ Plan:
+1. Read the `sales.csv` file to identify whether it contains information on the marketing budget for Q2 and Q3.
+2. If the marketing budget information isn't found in `sales.csv`, read through the `employees.csv` and `inventory.csv` files to check if they contain relevant budget details.
+3. Check the `calendar.csv` file for any references or notes regarding the marketing budget for the specified quarters.
+4. If all previous files are checked and the information is still unclear, read the `emails.txt` file to see if there are any communications regarding the marketing budget for Q2 and Q3.
+5. Once the data for both Q2 and Q3 marketing budgets is obtained, calculate the percentage increase from Q2 to Q3 using the formula: (Budget_Q3 - Budget_Q2) / Budget_Q2 * 100.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 calculator({'expression': '(40000-32000)/32000*100'})
+  👷 Worker answer: The marketing budget increased by 25% from Q2 to Q3.
+  🔍 Checker: OK
+

@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "task": "Which region had the highest total revenue in sales.csv?",
+    "answer": "West",
+    "difficulty": "medium"
+  },
+  {
+    "id": 2,
+    "task": "What is the total revenue for East across all months?",
+    "answer": "27000",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3,
+    "task": "What day and time did Priya ask to move the meeting to?",
+    "answer": "Friday at 2 PM",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "task": "By what percentage did the marketing budget increase from Q2 to Q3?",
+    "answer": "25%",
+    "difficulty": "hard"
+  },
+  {
+    "id": 5,
+    "task": "What is the average salary in the Engineering department?",
+    "answer": "100000",
+    "difficulty": "medium"
+  },
+  {
+    "id": 6,
+    "task": "What was West's revenue in January?",
+    "answer": "18000",
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "task": "Which department does Dina work in?",
+    "answer": "Sales",
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "task": "What is Ben's salary?",
+    "answer": "70000",
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "task": "What was the marketing budget in Q3?",
+    "answer": "40000",
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "task": "What was North's revenue in February?",
+    "answer": "11000",
+    "difficulty": "easy"
+  },
+  {
+    "id": 11,
+    "task": "Which room is the Product demo in?",
+    "answer": "Room C",
+    "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "task": "How many chairs are in the inventory?",
+    "answer": "25",
+    "difficulty": "easy"
+  },
+  {
+    "id": 13,
+    "task": "What is the unit price of a Monitor?",
+    "answer": "200",
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "task": "On which day of the week is the Budget review?",
+    "answer": "Thursday",
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "task": "How many Electronics items are in the inventory in total?",
+    "answer": "35",
+    "difficulty": "medium"
+  },
+  {
+    "id": 16,
+    "task": "What is the total value of all Laptops (quantity \u00d7 unit price)?",
+    "answer": "10800",
+    "difficulty": "medium"
+  },
+  {
+    "id": 17,
+    "task": "What is the total salary of all employees?",
+    "answer": "335000",
+    "difficulty": "medium"
+  },
+  {
+    "id": 18,
+    "task": "What was the total revenue for all regions in January?",
+    "answer": "39000",
+    "difficulty": "medium"
+  },
+  {
+    "id": 19,
+    "task": "What is the average unit price of Furniture items?",
+    "answer": "235",
+    "difficulty": "medium"
+  },
+  {
+    "id": 20,
+    "task": "What is the total salary of Carlos's department minus the total salary of Dina's department?",
+    "answer": "135000",
+    "difficulty": "medium"
+  },
+  {
+    "id": 21,
+    "task": "What is the Monitor quantity minus the average quantity of Laptops and Printers?",
+    "answer": "12.5",
+    "difficulty": "medium"
+  },
+  {
+    "id": 22,
+    "task": "How much higher is Ben's salary than the Q3 marketing budget?",
+    "answer": "30000",
+    "difficulty": "hard"
+  },
+  {
+    "id": 23,
+    "task": "If the marketing budget grows by the same dollar amount from Q3 to Q4 as it did from Q2 to Q3, what will the Q4 budget be?",
+    "answer": "48000",
+    "difficulty": "hard"
+  },
+  {
+    "id": 24,
+    "task": "What is the total value of all items in the inventory (quantity \u00d7 unit price)?",
+    "answer": "21350",
+    "difficulty": "hard"
+  },
+  {
+    "id": 25,
+    "task": "Priya asked to move a meeting to a new day. Which event in the calendar is already scheduled on that day?",
+    "answer": "Product demo",
+    "difficulty": "hard"
+  },
+  {
+    "id": 26,
+    "task": "What is the total revenue of the region with the highest January revenue, minus the total value of all Electronics in the inventory?",
+    "answer": "19450",
+    "difficulty": "hard"
+  },
+  {
+    "id": 27,
+    "task": "Engineering wants to buy one Laptop and one Monitor for each Engineering employee. Using the inventory unit prices, what is the total cost?",
+    "answer": "2200",
+    "difficulty": "hard"
+  },
+  {
+    "id": 28,
+    "task": "How much higher is the total salary of all employees than the total revenue of all regions across all months?",
+    "answer": "253000",
+    "difficulty": "hard"
+  },
+  {
+    "id": 29,
+    "task": "What percentage of total revenue (all regions, all months) came from the East region? Round to one decimal place.",
+    "answer": "32.9",
+    "difficulty": "hard"
+  },
+  {
+    "id": 30,
+    "task": "If the Q3 marketing budget is used to buy all the Chairs and Desks in the inventory, how much money is left over?",
+    "answer": "34200",
+    "difficulty": "hard"
+  }
+]

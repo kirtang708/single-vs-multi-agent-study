@@ -1,0 +1,14 @@
+  🗺️ Plan:
+1. Read the `employees.csv` file to extract the total salaries of all employees.
+2. Read the `sales.csv` file to calculate the total revenue from all regions across all months.
+3. Compare the total salary obtained from step 1 to the total revenue obtained from step 2 to determine how much higher the total salary is than the total revenue. 
+4. If necessary, review `calendar.csv` and `inventory.csv` for any relevant information that might provide context or additional insights into the calculations.
+
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 calculator({'expression': '95000 + 70000 + 105000 + 65000'})
+     🔧 calculator({'expression': '12000 + 18000 + 9000 + 15000 + 17000 + 11000'})
+     🔧 calculator({'expression': '335000 - 82000'})
+  👷 Worker answer: The total salary of all employees is $253,000 higher than the total revenue from all regions across all months.
+  🔍 Checker: OK
+

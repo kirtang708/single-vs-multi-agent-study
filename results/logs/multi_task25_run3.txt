@@ -1,0 +1,20 @@
+  🗺️ Plan:
+1. Read the `calendar.csv` file to identify all scheduled events and their corresponding dates.
+2. Identify the new day Priya wants to move the meeting to by checking the `emails.txt` file for any relevant communications.
+3. Cross-reference the new day with the events listed in `calendar.csv` to find any conflicts with already scheduled events. 
+4. Compile a list of events that are scheduled on the new day based on the findings from the previous steps. 
+5. Review the findings to provide Priya with options regarding the meeting rescheduling.
+
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 calculator({'expression': '2026-11-06'})
+     🔧 calculator({'expression': '2026-11-03'})
+     🔧 calculator({'expression': '(11-3) + (5-11)'})
+     🔧 calculator({'expression': '(11-3) + (6-11)'})
+  👷 Worker answer: The scheduled events on the new day, which is Friday (November 6, 2026), are:
+
+- **Product demo at 15:00 in Room C**
+
+Thus, Priya will need to consider this conflict when rescheduling the meeting.
+  🔍 Checker: OK
+

@@ -1,0 +1,12 @@
+  🔧 list_files({}) → calendar.csv, emails.txt, employees.csv, inventory.csv, sale
+  🔧 list_files({}) → calendar.csv, emails.txt, employees.csv, inventory.csv, sale
+  🔧 read_file({'filename': 'employees.csv'}) → name,department,salary
+Asha,Engineering,95000
+Ben,Marketing,
+  🔧 read_file({'filename': 'sales.csv'}) → region,month,revenue
+East,Jan,12000
+West,Jan,18000
+North,Jan
+  🔧 calculator({'expression': '95000+70000+105000+65000'}) → 335000
+  🔧 calculator({'expression': '12000+18000+9000+15000+17000+11000'}) → 82000
+  🔧 calculator({'expression': '335000-82000'}) → 253000

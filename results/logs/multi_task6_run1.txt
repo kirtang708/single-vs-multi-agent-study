@@ -1,0 +1,20 @@
+  🗺️ Plan:
+1. **Read the 'sales.csv' file** to identify the structure and contents, focusing on revenue data relevant to West for January.
+2. **Review the 'calendar.csv' file** to confirm the date range for January and to understand how dates are formatted in relation to sales data.
+3. **Check the 'employees.csv' file** to verify if West corresponds to a specific employee, department, or category that may affect revenue reporting.
+4. **Examine the 'emails.txt' file** for any communications regarding January revenue or sales that may provide additional context or confirmation.
+5. **Calculate West's revenue** by extracting the necessary sales data from the 'sales.csv' file, ensuring it reflects January figures based on insights gathered from the previous files.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+  👷 Worker answer: 1. The **sales.csv** file indicates that West's revenue in January is **$18,000**.
+2. The **calendar.csv** file includes a date range and events, but does not provide relevant revenue data.
+3. The **employees.csv** file lists employees and their departments, but no indication of West as an employee; rather, it refers to the sales region.
+4. The **emails.txt** file contains discussions unrelated to the January revenue.
+
+**Final Answer:** West's revenue in January was $18,000.
+  🔍 Checker: OK
+

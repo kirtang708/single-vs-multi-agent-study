@@ -1,0 +1,4 @@
+  🔧 list_files({}) → calendar.csv, emails.txt, employees.csv, inventory.csv, sale
+  🔧 read_file({'filename': 'employees.csv'}) → name,department,salary
+Asha,Engineering,95000
+Ben,Marketing,

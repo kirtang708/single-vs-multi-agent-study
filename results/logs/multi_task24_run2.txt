@@ -1,0 +1,19 @@
+  🗺️ Plan:
+Plan:
+1. Read the `inventory.csv` file to extract data on the items, including their quantity and unit price.
+2. Calculate the total value of all items by multiplying the quantity by the unit price for each item in the inventory.
+3. If needed, cross-check the `sales.csv` to ensure all items currently in inventory are accounted for and there are no discrepancies.
+4. Review the `employees.csv` file in case there is any relevant information about who manages the inventory, but focus primarily on the inventory data.
+5. Check `calendar.csv` only if there is a need to understand the context or timing of inventory changes, otherwise, prioritize the other files.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 calculator({'expression': '12*900'})
+     🔧 calculator({'expression': '20*200'})
+     🔧 calculator({'expression': '8*350'})
+     🔧 calculator({'expression': '25*120'})
+     🔧 calculator({'expression': '3*250'})
+     🔧 calculator({'expression': '10800+4000+2800+3000+750'})
+  👷 Worker answer: The total value of all items in the inventory is $21,350.
+  🔍 Checker: OK
+

@@ -1,0 +1,26 @@
+  🗺️ Plan:
+1. Read the **inventory.csv** file to identify the details related to the Monitor, including its description and total quantity available. 
+2. Read the **sales.csv** file to check for any recent sales transactions related to the Monitor to find the total sales revenue associated with it.
+3. Calculate the unit price of the Monitor by dividing the total sales revenue by the total quantity available (if sales data is available).
+4. If needed, read the **emails.txt** file for any correspondence that might provide additional context on pricing or inventory status.
+5. Check the **employees.csv** file for any internal notes or comments that may pertain to sales strategies or pricing, just in case additional insights are needed.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 calculator({'expression': '12000 + 18000 + 9000 + 15000 + 17000 + 11000'})
+     🔧 calculator({'expression': '82000 / 20'})
+  👷 Worker answer: The unit price of the Monitor is $4100.
+  🔍 Checker: The worker's answer is incorrect. The unit price of the Monitor as per the inventory data is $200, not $4100. The calculation performed by the worker is not relevant to determining the unit price of the Monitor.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+  👷 Worker answer: 1. The inventory data shows that the Monitor has a quantity of 20 and a unit price of $200.
+2. The sales data does not provide any specific transactions related to the Monitor, only total revenues by region and month.
+
+Since the unit price for the Monitor is already provided in the inventory data as $200, there are no further calculations needed.
+
+**Final Answer:** The unit price of the Monitor is $200.
+  🔍 Checker: OK
+

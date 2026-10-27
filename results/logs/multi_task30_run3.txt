@@ -1,0 +1,20 @@
+  🗺️ Plan:
+1. Read the `inventory.csv` file to determine the total cost of all the Chairs and Desks in the inventory.
+2. Read the `calendar.csv` file to identify the Q3 period and confirm the relevant budget allocation for the marketing budget.
+3. Calculate the total expenses by summing the cost of all Chairs and Desks.
+4. Subtract the total cost of the Chairs and Desks from the Q3 marketing budget to determine how much money is left over.
+5. Review the `emails.txt` and `employees.csv` files for any additional information or context that may influence the marketing budget or the inventory figures, if needed.
+
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 calculator({'expression': '(8*350)+(25*120)'})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 calculator({'expression': '40000-5800'})
+  👷 Worker answer: The total cost of all Chairs and Desks in the inventory is $5,800. After using the Q3 marketing budget of $40,000 for this purchase, $34,200 is left over.
+  🔍 Checker: The worker correctly calculated the total cost of all Chairs and Desks and the remaining budget after the purchase. However, the final leftover amount is $34,200, not $34,200 due to a mix-up in the figures mentioned. The answer should specify the leftover amount clearly without ambiguity. The figures support the worker's calculation but had a minor wording issue. 
+
+Overall, the conclusion reaffirms that $34,200 is left over, aligning with the tools returned. 
+
+OK.
+

@@ -1,0 +1,21 @@
+  🗺️ Plan:
+Plan:
+
+1. Read the **sales.csv** file to find detailed information on the sales for January, as this file is likely to contain revenue data.
+2. Check the **calendar.csv** file to confirm the dates that define January and ensure any sales data aligns with that timeframe.
+3. If needed, look for any relevant information in **emails.txt** which might provide additional context about sales or revenue for January.
+4. Review the **employees.csv** file to identify any potential changes in staffing or sales roles that may affect revenue, although this is less directly related to the revenue calculation.
+5. Examine the **inventory.csv** file for any information that may indicate changes in stock that could have influenced sales during January. 
+
+After gathering information from these files, calculate West's total revenue for January based on the relevant data extracted.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 calculator({'expression': '18000'})
+  👷 Worker answer: West's revenue in January was $18,000.
+  🔍 Checker: OK
+

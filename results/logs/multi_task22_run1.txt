@@ -1,0 +1,16 @@
+  🗺️ Plan:
+1. Read the `employees.csv` file to find Ben's salary.
+2. Read the `sales.csv` file to find information on the Q3 marketing budget, if available.
+3. If the Q3 marketing budget is not in `sales.csv`, check the remaining files (`calendar.csv`, `emails.txt`, and `inventory.csv`) for any possible references to the Q3 budget.
+4. Calculate the difference between Ben's salary and the Q3 marketing budget once both values are determined.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 calculator({'expression': '70000-40000'})
+  👷 Worker answer: Ben's salary is $30,000 higher than the Q3 marketing budget.
+  🔍 Checker: OK
+

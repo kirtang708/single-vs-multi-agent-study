@@ -1,0 +1,11 @@
+  🗺️ Plan:
+1. Read the `employees.csv` file to check for Dina's information, including her department.
+2. If necessary, cross-reference the `emails.txt` file for any additional clues regarding Dina's department.
+3. Review the `calendar.csv` to check for any departmental meetings or events that might mention Dina's department.
+4. Lastly, scan the `inventory.csv` and `sales.csv` files for any indirect references to Dina if needed, though they are less likely to contain relevant information.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'employees.csv'})
+  👷 Worker answer: Dina works in the Sales department.
+  🔍 Checker: OK
+

@@ -1,0 +1,15 @@
+  🗺️ Plan:
+1. Read the **inventory.csv** file to find details about the monitors, including their quantities and total prices.
+2. Check the **sales.csv** file to gather any sales data related to monitors, which might provide additional context on pricing.
+3. Review the **calendar.csv** and **emails.txt** files for any relevant communications or announcements regarding monitor pricing or sales events that could impact the unit price.
+4. Calculate the unit price of the monitor by using the information gathered from the inventory and sales data. If needed, cross-reference any relevant information from the other files.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 calculator({'expression': '200*20'})
+  👷 Worker answer: The unit price of the monitor is $200.
+  🔍 Checker: OK
+

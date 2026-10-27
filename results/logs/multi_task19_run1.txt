@@ -1,0 +1,14 @@
+  🗺️ Plan:
+1. Read the `inventory.csv` file to identify the furniture items and their unit prices.
+2. Read the `sales.csv` file to find sales data that may include quantities sold for furniture items.
+3. Calculate the average unit price of furniture items using the data obtained from the `inventory.csv` file.
+4. If necessary, cross-reference with `sales.csv` to ensure we are using the correct unit prices for any furniture items that may have varying prices.
+5. Review `calendar.csv`, `emails.txt`, and `employees.csv` for any additional context or information that might be relevant to the pricing, if needed.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 calculator({'expression': '(350 + 120) / 2'})
+  👷 Worker answer: The average unit price of Furniture items is $235.00.
+  🔍 Checker: OK
+

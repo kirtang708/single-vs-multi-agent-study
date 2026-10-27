@@ -1,0 +1,455 @@
+system,task_id,difficulty,run,correct,steps,tokens,seconds,answer
+single,1,medium,1,True,6,1688,5.6,"The region with the highest total revenue is the West, with a total revenue of $35,000."
+multi,1,medium,1,True,6,1890,6.3,"The total revenue for each region is as follows:
+- East: 27,000
+- West: 35,000
+- North: 20,000
+
+The region with the highest total revenue is the **West** region."
+single,2,medium,1,True,5,1395,3.8,"The total revenue for East across all months is 27,000."
+multi,2,medium,1,True,6,2417,4.9,"The total revenue for the East region across all months is $27,000."
+single,3,easy,1,True,3,677,2.5,Priya asked to move the meeting from Thursday to Friday at 2 PM.
+multi,3,easy,1,True,5,1835,4.9,Priya requested to move the meeting from Thursday to Friday at 2 PM.
+single,4,hard,1,True,7,3123,5.7,The marketing budget increased by 25% from Q2 to Q3.
+multi,4,hard,1,True,10,5354,8.5,The marketing budget increased by 25% from Q2 to Q3.
+single,5,medium,1,True,4,956,3.2,"The average salary in the Engineering department is $100,000."
+multi,5,medium,1,True,6,1911,4.9,"The average salary in the Engineering department is $100,000."
+single,6,easy,1,True,3,649,2.0,"West's revenue in January was $18,000."
+multi,6,easy,1,True,5,2287,6.4,"1. The **sales.csv** file indicates that West's revenue in January is **$18,000**.
+2. The **calendar.csv** file includes a date range and events, but does not provide relevant revenue data.
+3. The **employees.csv** file lists employees and their departments, but no indication of West as an employee; rather, it refers to the sales region.
+4. The **emails.txt** file contains discussions unrelated to the January revenue.
+
+**Final Answer:** West's revenue in January was $18,000."
+single,7,easy,1,True,3,631,2.0,Dina works in the Sales department.
+multi,7,easy,1,True,5,1586,4.6,Dina works in the Sales department according to the `employees.csv` file. The `emails.txt` file did not contain any relevant information about her department.
+single,8,easy,1,True,3,629,2.0,"Ben's salary is $70,000."
+multi,8,easy,1,True,8,3443,7.4,"From the information gathered:
+
+1. Ben's salary from the **employees.csv** file is $70,000.
+2. There are no relevant salary discussions or adjustments for Ben in the **emails.txt** or **calendar.csv** files.
+3. The **sales.csv** file does not contain any specific performance-based salary components directly linked to Ben.
+
+Therefore, Ben's total salary is **$70,000**."
+single,9,easy,1,True,5,1692,4.0,"The marketing budget in Q3 was $40,000."
+multi,9,easy,1,True,5,2426,7.2,"1. From the **calendar.csv** file, we did not get any direct dates defining Q3, but Q3 consists of July, August, and September.
+2. The **emails.txt** file mentions: ""The marketing budget for Q3 is $40,000, up from $32,000 in Q2.""
+3. The **employees.csv** file lists employees but does not provide information about budget allocation for marketing roles.
+4. The **sales.csv** file provides revenue data but does not include marketing budget details.
+5. The **inventory.csv** file does not mention any marketing-related expenses directly.
+
+The marketing budget for Q3 is **$40,000**."
+single,10,easy,1,True,3,649,2.2,"North's revenue in February was $11,000."
+multi,10,easy,1,True,6,1967,4.4,"North's revenue in February was $11,000."
+single,11,easy,1,True,3,807,2.0,The Product demo is in Room C.
+multi,11,easy,1,True,5,2244,5.1,"The product demo is scheduled for **Friday** at **3:00 PM** in **Room C** according to the **calendar.csv** file. 
+
+Final Answer: Room C"
+single,12,easy,1,True,3,651,1.9,There are 25 chairs in the inventory.
+multi,12,easy,1,True,5,2267,5.2,"The inspection of the files revealed the following regarding chairs in the inventory:
+
+1. **inventory.csv** shows there are **25 chairs** in the inventory.
+2. The other files (emails.txt, sales.csv, employees.csv, calendar.csv) do not provide significant information affecting the chair count.
+
+Final answer: There are **25 chairs** in the inventory."
+single,13,easy,1,True,3,655,2.3,The unit price of a Monitor is $200.
+multi,13,easy,1,True,6,2665,4.9,The unit price of the monitor is $200.
+single,14,easy,1,True,4,1269,3.2,The Budget review is scheduled for Thursday.
+multi,14,easy,1,True,7,2765,5.9,"The Budget review is scheduled for **Thursday, November 5, 2026**."
+single,15,medium,1,True,4,977,3.1,The total number of Electronics items in the inventory is 35.
+multi,15,medium,1,True,6,1997,5.4,The total number of Electronics items in the inventory is 35.
+single,16,medium,1,True,4,990,3.0,"The total value of all Laptops is $10,800."
+multi,16,medium,1,True,6,2344,5.6,"The total value of all Laptops is $10,800. The sales data does not provide any specific insights that influence this value."
+single,17,medium,1,True,4,955,3.0,"The total salary of all employees is $335,000."
+multi,17,medium,1,True,6,1889,4.7,"The total salary of all employees is $335,000."
+single,18,medium,1,True,4,981,3.9,"The total revenue for all regions in January was $39,000."
+multi,18,medium,1,True,6,2225,4.9,"The total revenue for all regions in January is $39,000."
+single,19,medium,1,False,5,1448,4.5,The average unit price of Furniture items is approximately $175.76.
+multi,19,medium,1,True,6,2211,4.6,The average unit price of Furniture items is $235.00.
+single,20,medium,1,True,4,996,3.0,"The total salary of Carlos's department minus the total salary of Dina's department is $135,000."
+multi,20,medium,1,True,7,2464,6.7,"The total salary of Carlos's department minus the total salary of Dina's department is $135,000."
+single,21,medium,1,True,4,1105,3.5,The Monitor quantity minus the average quantity of Laptops and Printers is 12.5.
+multi,21,medium,1,True,7,2610,6.3,The result of Monitor quantity minus the average quantity of Laptops and Printers is **12.5**.
+single,22,hard,1,False,4,1256,4.2,"Ben's salary is $70,000. However, I could not find the Q3 marketing budget in the available files. So I can't calculate the difference."
+multi,22,hard,1,True,7,3304,6.0,"Ben's salary is $30,000 higher than the Q3 marketing budget."
+single,23,hard,1,True,7,3439,6.6,"The Q4 marketing budget will be $48,000."
+multi,23,hard,1,True,9,5289,8.2,"The projected marketing budget for Q4 will be $48,000."
+single,24,hard,1,True,4,1052,3.2,"The total value of all items in the inventory is $21,350."
+multi,24,hard,1,True,7,2801,7.0,"The total value of all items in the inventory is $21,350."
+single,25,hard,1,False,3,740,1.9,Please provide the new day to see if there is an event scheduled for that date.
+multi,25,hard,1,True,8,4732,9.5,"1. **Events in the calendar**:
+   - Monday, 2026-11-02: Team standup at 09:00 (Room A)
+   - Tuesday, 2026-11-03: Client call at 14:00 (Room B)
+   - Thursday, 2026-11-05: Budget review at 11:00 (Room A)
+   - Friday, 2026-11-06: Product demo at 15:00 (Room C)
+
+2. **Priya's meeting details**:
+   - She wants to move Thursday's meeting to **Friday at 2 PM**.
+
+3. **Cross-referencing events**:
+   - On **Friday, 2026-11-06**, there is already a scheduled event: **Product demo at 15:00 (Room C)**.
+
+**Final answer**: The event already scheduled on Friday (2026-11-06) is the **Product demo at 15:00**."
+single,26,hard,1,False,4,1286,4.7,"The total revenue of the region with the highest January revenue, minus the total value of all Electronics in the inventory, is 2450."
+multi,26,hard,1,False,7,2985,7.0,"The total revenue of the region with the highest January revenue, minus the total value of all Electronics in inventory, is **2450**."
+single,27,hard,1,True,5,1453,3.5,"The total cost for one Laptop and one Monitor for each Engineering employee is $2,200."
+multi,27,hard,1,True,6,2300,6.0,The total cost for purchasing one laptop and one monitor for each Engineering employee is $2200.
+single,28,hard,1,True,5,1817,5.3,"The total salary of all employees is 253,000 higher than the total revenue of all regions across all months."
+multi,28,hard,1,True,6,2469,5.8,"The total salary of all employees is $253,000 higher than the total revenue from all regions across all months."
+single,29,hard,1,True,4,1086,3.1,The East region contributed approximately 32.9% of total revenue.
+multi,29,hard,1,True,27,13627,28.8,The percentage of total revenue that came from the East region is approximately **32.9%** when rounded to one decimal place.
+single,30,hard,1,False,6,2252,5.1,"After using the Q3 marketing budget to buy all the chairs and desks in the inventory, there is $35,200 left over."
+multi,30,hard,1,True,10,5159,10.5,"The total cost of all Chairs and Desks in the inventory is $5,800. The Q3 marketing budget is $40,000, so the money left over after the purchase is $34,200."
+single,1,medium,2,True,6,1688,4.3,"The region with the highest total revenue is the West, with a total revenue of 35,000."
+multi,1,medium,2,True,6,2145,5.8,"The total revenues by region are as follows:
+- East: 27,000
+- West: 35,000
+- North: 20,000
+
+The region with the highest total revenue is the **West** region with **35,000**."
+single,2,medium,2,True,5,1395,3.3,"The total revenue for East across all months is 27,000."
+multi,2,medium,2,True,6,2449,5.7,"The total revenue for the East region across all months is **$27,000**."
+single,3,easy,2,True,3,675,1.8,Priya asked to move the meeting to Friday at 2 PM.
+multi,3,easy,2,True,6,2726,6.6,"Based on the findings:
+
+1. **Emails.txt**: Priya requested to move Thursday's meeting to Friday at 2 PM.
+2. **Calendar.csv**: The only relevant Thursday meeting scheduled is the Budget review on November 5, 2026. The new meeting would then be on November 6, 2026.
+
+In summary, Priya asked to move the meeting to **Friday, November 6, 2026, at 2 PM**."
+single,4,hard,2,False,6,2015,4.4,It appears that the relevant data for the marketing budget is not available in the files. The files examined do not contain any information regarding the marketing budget for Q2 or Q3.
+multi,4,hard,2,True,6,2918,6.4,The marketing budget increased by 25% from Q2 to Q3.
+single,5,medium,2,True,4,956,2.5,"The average salary in the Engineering department is $100,000."
+multi,5,medium,2,True,6,1576,4.9,"The average salary in the Engineering department is $100,000."
+single,6,easy,2,True,3,649,2.6,"West's revenue in January was $18,000."
+multi,6,easy,2,True,5,2276,6.2,"The data extracted from various files is as follows:
+
+1. **calendar.csv**: Contains no specific revenue-related information for January.
+  
+2. **sales.csv**: Indicates that the revenue for West in January is **$18,000**.
+  
+3. **employees.csv**: Lists employees but does not directly impact January revenue calculations.
+  
+4. **emails.txt**: Contains general meeting scheduling and budgeting discussions but no specific information related to January's sales or revenue.
+
+Based on the findings, West's revenue in January is **$18,000**."
+single,7,easy,2,True,3,631,1.8,Dina works in the Sales department.
+multi,7,easy,2,True,5,1322,4.2,Dina works in the Sales department.
+single,8,easy,2,True,3,629,2.0,"Ben's salary is $70,000."
+multi,8,easy,2,True,5,1984,5.3,"1. **Employees.csv**: Ben's salary is **$70,000**.
+2. **Emails.txt**: No specific mention of salary or discussions directly related to Ben.
+3. **Calendar.csv**: There is a scheduled event for a budget review, but it does not directly pertain to Ben's salary.
+
+Final answer: Ben's salary is $70,000."
+single,9,easy,2,True,4,1473,3.4,"The marketing budget for Q3 is $40,000."
+multi,9,easy,2,True,4,2008,5.6,"1. **Calendar.csv**: No specific marketing events mentioned for Q3.
+2. **Emails.txt**: The marketing budget for Q3 is stated as **$40,000**, which is an increase from $32,000 in Q2.
+3. **Employees.csv**: Ben is listed as part of the Marketing department.
+4. **Inventory.csv**: No marketing-related costs identified for Q3.
+5. **Sales.csv**: Sales data does not provide insights into Q3 marketing expenditures.
+
+**Final answer**: The marketing budget for Q3 was **$40,000**."
+single,10,easy,2,True,3,649,1.9,"North's revenue in February was $11,000."
+multi,10,easy,2,True,6,2625,5.5,"North's revenue in February was $11,000."
+single,11,easy,2,True,3,807,2.4,The Product demo is in Room C.
+multi,11,easy,2,True,5,1640,4.6,"The Product demo is scheduled for **Room C** on **Friday, November 6, 2026**."
+single,12,easy,2,True,3,651,1.9,There are 25 chairs in the inventory.
+multi,12,easy,2,True,6,2692,6.3,There are 25 chairs in the inventory.
+single,13,easy,2,True,3,655,2.2,The unit price of a Monitor is $200.
+multi,13,easy,2,True,14,6838,11.7,"The unit price of a Monitor is **$200**, as indicated in the **inventory.csv** file."
+single,14,easy,2,True,4,1256,3.2,The Budget review is scheduled for Thursday.
+multi,14,easy,2,True,7,2516,7.0,"The Budget review is scheduled for **Thursday, November 5, 2026**."
+single,15,medium,2,True,4,977,3.8,There are a total of 35 Electronics items in the inventory.
+multi,15,medium,2,True,6,2434,6.8,"From the `inventory.csv` file, the electronics items and their quantities are as follows:
+
+- Laptop: 12
+- Monitor: 20
+- Printer: 3
+
+Now, summing these up:
+
+12 (Laptops) + 20 (Monitors) + 3 (Printers) = 35 Electronics items.
+
+The `sales.csv` file did not contain additional information regarding electronics items, and the `emails.txt` file did not provide any relevant details about additional electronics in the inventory.
+
+**Total count of Electronics items in the inventory: 35**."
+single,16,medium,2,True,4,990,3.1,"The total value of all Laptops is $10,800."
+multi,16,medium,2,True,6,2284,5.4,"The total value of all laptops in inventory is $10,800."
+single,17,medium,2,True,4,955,2.9,"The total salary of all employees is $335,000."
+multi,17,medium,2,True,6,1819,5.2,"The total salary of all employees is $335,000."
+single,18,medium,2,True,4,981,3.3,"The total revenue for all regions in January was $39,000."
+multi,18,medium,2,True,8,3760,7.0,"The total revenue for all regions in January is **$39,000**."
+single,19,medium,2,False,4,1004,2.8,The average unit price of Furniture items is approximately $175.76.
+multi,19,medium,2,True,6,1981,5.4,The average unit price of Furniture items is $235.00.
+single,20,medium,2,True,4,1197,3.5,"The total salary of Carlos's department minus the total salary of Dina's department is $135,000."
+multi,20,medium,2,True,7,3071,9.9,"The total salary of Carlos's department minus the total salary of Dina's department is **135,000**."
+single,21,medium,2,True,4,1095,4.3,The quantity of Monitors minus the average quantity of Laptops and Printers is 12.5.
+multi,21,medium,2,True,7,3085,6.3,"The quantity of Monitors is 20, and the average quantity of Laptops and Printers is 7.5. Subtracting the average from the quantity of Monitors gives us 12.5.
+
+Final answer: 12.5"
+single,22,hard,2,True,7,3041,4.9,"Ben's salary is $30,000 higher than the Q3 marketing budget."
+multi,22,hard,2,True,12,6582,11.0,"Ben's salary is $30,000 higher than the Q3 marketing budget, which is $40,000."
+single,23,hard,2,True,6,2952,5.1,"The Q4 marketing budget will be $48,000."
+multi,23,hard,2,False,37,21015,26.4,Stopped: too many steps
+single,24,hard,2,True,5,1641,5.9,"The total value of all items in the inventory is $21,350."
+multi,24,hard,2,True,7,2879,7.5,"The total value of all items in the inventory is $21,350."
+single,25,hard,2,False,3,738,2.1,Please specify the new day to check for any scheduled events in the calendar.
+multi,25,hard,2,True,7,3799,7.6,"Priya proposed to move Thursday's meeting (Budget review at 11:00 AM) to Friday at 2 PM. 
+
+Checking the calendar for events on Friday (November 6, 2026):
+
+- **Product demo** is scheduled at 3:00 PM.
+
+Thus, the only event on the new proposed day (Friday) is the ""Product demo"" at 3:00 PM. 
+
+Final answer: Event scheduled on the new day (Friday): Product demo at 3:00 PM."
+single,26,hard,2,False,4,1280,3.2,"The total revenue of the region with the highest January revenue, minus the total value of all Electronics in the inventory, is $2450."
+multi,26,hard,2,False,8,3478,6.4,The total revenue of the region with the highest January revenue minus the total value of all Electronics in the inventory is **2450**.
+single,27,hard,2,True,4,1227,3.2,"The total cost for one Laptop and one Monitor for each Engineering employee is $2,200."
+multi,27,hard,2,True,6,2211,4.7,"The total cost for buying one laptop and one monitor for each Engineering employee is **$2,200**."
+single,28,hard,2,True,5,2016,4.4,"The total salary of all employees is $253,000 higher than the total revenue of all regions across all months."
+multi,28,hard,2,True,7,3604,8.0,"The total salary of all employees is $253,000 higher than the total revenue across all regions for all months."
+single,29,hard,2,True,5,1550,5.0,The percentage of total revenue from the East region is approximately 32.9%.
+multi,29,hard,2,True,9,3852,7.9,The percentage of total revenue that came from the East region is approximately 32.9%.
+single,30,hard,2,False,5,2106,6.4,"I couldn't find a specific entry for the Q3 marketing budget, which typically might be in a separate budget or finance file. Thus, examining the `sales.csv` and `calendar.csv` does not provide us with the marketing budget, making this information unavailable. 
+
+However, if I assume the total budget available for Q3 marketing matches the total revenue from the available data (January and February combined), that amount would be $12,000 + $18,000 + $9,000 + $15,000 + $17,000 + $11,000 = $82,000.
+
+Now, if we consider that total against the total cost of the furniture (Chairs and Desks), which amounts to $5,800, we could proceed to calculate the money left over.
+
+Total revenue from Q3: $82,000.
+Total cost of furniture: $5,800.
+
+Calculating the difference:  
+$82,000 - $5,800 = $76,200. 
+
+So, assuming the Q3 budget can be equated to total revenue, the leftover money would be **$76,200**."
+multi,30,hard,2,True,6,3570,7.1,"The total cost of purchasing all Chairs and Desks is $5,800. After using the Q3 marketing budget of $40,000, the leftover amount is $34,200. 
+
+Final answer: $34,200."
+single,1,medium,3,True,6,1681,4.2,"The West region had the highest total revenue with $35,000."
+multi,1,medium,3,True,6,1885,5.3,"The total revenue for each region is as follows:
+- East: 27,000
+- West: 35,000
+- North: 20,000
+
+The region with the highest total revenue is the **West** region."
+single,2,medium,3,True,5,1395,3.9,"The total revenue for East across all months is $27,000."
+multi,2,medium,3,True,6,2825,6.9,"The total revenue for the East region across all months is $27,000."
+single,3,easy,3,True,3,675,2.4,Priya requested to move the meeting to Friday at 2 PM.
+multi,3,easy,3,True,5,2331,6.4,"Priya requested to move the meeting from Thursday to Friday at 2 PM. 
+
+The relevant email correspondence states: ""Can we move Thursday's meeting to Friday at 2 PM?"" 
+
+The updated calendar indicates the following events:
+- Thursday, November 5: Budget review at 11:00 AM
+- Friday, November 6: Product demo at 3:00 PM
+
+There’s a slot for Priya’s requested time on Friday at 2 PM. 
+
+Final answer: Priya asked to move the meeting to Friday at 2 PM."
+single,4,hard,3,False,8,3357,6.7,Stopped: too many steps
+multi,4,hard,3,True,12,6047,11.6,The marketing budget increased by 25% from Q2 to Q3.
+single,5,medium,3,True,4,956,2.7,"The average salary in the Engineering department is $100,000."
+multi,5,medium,3,True,6,1821,4.6,"The average salary in the Engineering department is $100,000."
+single,6,easy,3,True,3,649,2.1,"West's revenue in January was $18,000."
+multi,6,easy,3,True,6,3081,6.5,"West's revenue in January was $18,000."
+single,7,easy,3,True,3,631,3.9,Dina works in the Sales department.
+multi,7,easy,3,True,5,2133,6.6,"Dina works in the **Sales** department, as indicated in the `employees.csv` file. Other files did not provide additional relevant information about her role or department."
+single,8,easy,3,True,3,629,2.3,"Ben's salary is $70,000."
+multi,8,easy,3,True,5,2274,6.4,"1. **Ben's Salary**: According to the **employees.csv** file, Ben's salary is **$70,000**.
+
+2. **Calendar Details**: The **calendar.csv** file does not contain any events specifically related to salary discussions for Ben.
+
+3. **Emails Insights**: In the **emails.txt** file, there was a mention of a marketing budget increase but nothing directly tied to Ben's salary or negotiations.
+
+4. **Sales Information**: The **sales.csv** file provides revenue data but does not mention Ben or his performance directly affecting his salary.
+
+Combining all this information, Ben's salary stands at **$70,000** without any recorded changes or bonuses affecting it. 
+
+Final Answer: Ben's salary is $70,000."
+single,9,easy,3,True,6,2005,4.3,"The marketing budget for Q3 is $40,000."
+multi,9,easy,3,True,5,2416,6.7,"Here's the gathered information related to the marketing budget in Q3:
+
+1. **Calendar Data**: The calendar does not provide relevant information about Q3 events or dates since it only contains general meeting information.
+  
+2. **Emails Data**: John mentioned that the marketing budget for Q3 is $40,000, which is an increase from $32,000 in Q2.
+
+3. **Employees Data**: The data includes Ben in the Marketing department, but there is no specific mention of marketing budget allocations in this file.
+
+4. **Inventory Data**: This file lists various items but does not contain information about marketing-related expenditures.
+
+5. **Sales Data**: The sales data provided does not contain specific details or allocations for marketing during Q3.
+
+Final Answer: The marketing budget for Q3 is $40,000."
+single,10,easy,3,True,4,1034,2.6,"North's revenue in February was $11,000."
+multi,10,easy,3,True,6,2107,5.6,"North's revenue in February was $11,000."
+single,11,easy,3,True,3,807,2.2,The Product demo is in Room C.
+multi,11,easy,3,True,7,3532,6.9,"The details from the **calendar.csv** file indicate that the Product demo is scheduled for **Friday**, **November 6, 2026**, at **3:00 PM** in **Room C**. 
+
+The **emails.txt** and **employees.csv** files did not provide any additional relevant information about the Product demo location. The **inventory.csv** and **sales.csv** files also did not reference the Product demo.
+
+Final answer: The Product demo is in **Room C**."
+single,12,easy,3,True,3,651,1.9,There are 25 chairs in the inventory.
+multi,12,easy,3,True,5,2089,5.9,"1. From **inventory.csv**, the current inventory indicates that there are **25 chairs**.
+2. The **sales.csv** file does not contain any information about chair inventory levels, as it focuses on revenue by region, not on stock.
+3. The **emails.txt** file does not provide any relevant communication regarding updates or changes to the chair inventory.
+4. The **employees.csv** file lists employees and their departments but does not provide information relevant to inventory management.
+
+After reviewing all the relevant files, the confirmed number of chairs in the inventory is **25**."
+single,13,easy,3,True,3,655,1.9,The unit price of a Monitor is $200.
+multi,13,easy,3,True,11,4758,10.4,"1. The inventory data shows that the Monitor has a quantity of 20 and a unit price of $200.
+2. The sales data does not provide any specific transactions related to the Monitor, only total revenues by region and month.
+
+Since the unit price for the Monitor is already provided in the inventory data as $200, there are no further calculations needed.
+
+**Final Answer:** The unit price of the Monitor is $200."
+single,14,easy,3,True,4,1256,3.1,The Budget review is scheduled for Thursday.
+multi,14,easy,3,True,6,2314,5.3,"The Budget review is scheduled for Thursday, November 5, 2026. Thus, the day of the week for the Budget review is Thursday."
+single,15,medium,3,True,4,981,2.5,There are a total of 35 Electronics items in the inventory.
+multi,15,medium,3,True,6,1960,5.9,The total number of Electronics items in the inventory is 35.
+single,16,medium,3,True,4,990,2.8,"The total value of all Laptops is $10,800."
+multi,16,medium,3,True,6,2111,5.1,"The total value of all laptops is $10,800."
+single,17,medium,3,True,4,955,2.7,"The total salary of all employees is $335,000."
+multi,17,medium,3,True,6,1929,4.9,"The total salary of all employees is $335,000."
+single,18,medium,3,True,4,981,2.8,"The total revenue for all regions in January was $39,000."
+multi,18,medium,3,True,6,2330,5.0,"The total revenue for all regions in January is $39,000."
+single,19,medium,3,False,4,1004,2.9,The average unit price of Furniture items is approximately $175.76.
+multi,19,medium,3,True,6,2301,5.6,The average unit price of Furniture items is $235.00.
+single,20,medium,3,True,4,992,3.0,"The total salary of Carlos's department minus the total salary of Dina's department is $135,000."
+multi,20,medium,3,True,7,2337,5.8,"The total salary of Carlos's department minus the total salary of Dina's department is $135,000."
+single,21,medium,3,True,4,1105,3.4,The Monitor quantity minus the average quantity of Laptops and Printers is 12.5.
+multi,21,medium,3,True,6,2476,5.0,The quantity of Monitors minus the average quantity of Laptops and Printers is 12.5.
+single,22,hard,3,False,4,1277,4.2,"It seems I don't have the Q3 marketing budget data available. The files reviewed only contain Ben's salary information. Ben's salary is $70,000. Please provide the Q3 marketing budget or let me know if I should look for it in another file."
+multi,22,hard,3,True,11,5968,10.2,"Ben's salary is $30,000 higher than the Q3 marketing budget."
+single,23,hard,3,False,4,1513,3.8,"The files do not contain information about the marketing budget for Q2, Q3, or any relevant figures needed to calculate the Q4 budget. Therefore, I cannot provide the answer without that data."
+multi,23,hard,3,False,16,11614,20.9,"The information required for the marketing budget calculations is not present in the retrieved files. There are three files searched: `sales.csv`, `calendar.csv`, and `employees.csv`. 
+
+- The `sales.csv` file contains revenue data for various months but lacks specific references to the marketing budget.
+- The `calendar.csv` file contains event scheduling and is not related to the budget.
+- The `employees.csv` file provides employee information, which is also not relevant to the marketing budget.
+
+Since the files do not provide the necessary details about marketing budgets for Q2 and Q3, I will not be able to compute the Q4 budget as originally intended. 
+
+Thus, additional information about the marketing budget or access to different files containing this information would be needed to proceed."
+single,24,hard,3,True,4,1036,3.5,"The total value of all items in the inventory is $21,350."
+multi,24,hard,3,True,7,2681,6.6,"The total value of all items in the inventory is $21,350."
+single,25,hard,3,False,3,755,2.5,"To identify which event is scheduled on the new day, I need to know the specific date Priya wants to move the meeting to. Please provide that information."
+multi,25,hard,3,True,6,2995,6.9,"The scheduled events on the new day, which is Friday (November 6, 2026), are:
+
+- **Product demo at 15:00 in Room C**
+
+Thus, Priya will need to consider this conflict when rescheduling the meeting."
+single,26,hard,3,False,4,1283,3.3,The total revenue of the region with the highest January revenue minus the total value of all Electronics in inventory is 2450.
+multi,26,hard,3,False,7,3131,6.2,"The total revenue of the region with the highest January revenue, minus the total value of all Electronics in the inventory, is **2450**."
+single,27,hard,3,True,5,1454,4.0,"The total cost for buying one Laptop and one Monitor for each Engineering employee is $2,200."
+multi,27,hard,3,True,6,2160,5.5,The total cost for buying one laptop and one monitor for each Engineering employee is $2200.
+single,28,hard,3,True,5,1791,4.8,"The total salary of all employees is $253,000 higher than the total revenue of all regions across all months."
+multi,28,hard,3,True,6,2695,6.2,"The total salary of all employees is $335,000, while the total revenue from all regions is $82,000. Therefore, the total salary is $253,000 higher than the total revenue."
+single,29,hard,3,True,4,1366,3.7,approximately 32.9% of total revenue came from the East region.
+multi,29,hard,3,True,16,7538,16.0,"It looks like I encountered an issue while trying to round the percentage to one decimal place directly. I will manually round the percentage calculated:
+
+Calculated percentage of revenue from the East region: **32.926829268292686%**  
+Rounded to one decimal place: **32.9%**
+
+Final answer: **32.9%**."
+single,30,hard,3,False,5,1903,4.8,"It appears that the sales data does not contain any information about the Q3 marketing budget. Therefore, I'm unable to determine how much money is left over after purchasing all the chairs and desks with the Q3 marketing budget. 
+
+The total cost for the chairs and desks is $5,800. However, the budget amount is missing."
+multi,30,hard,3,True,8,4488,8.2,"The total cost of all Chairs and Desks in the inventory is $5,800. After using the Q3 marketing budget of $40,000 for this purchase, $34,200 is left over."
+single_rule,1,medium,1,True,6,1711,4.9,"The West region had the highest total revenue of $35,000."
+single_rule,2,medium,1,True,5,1420,4.2,"The total revenue for East across all months is $27,000."
+single_rule,3,easy,1,True,3,846,2.2,Priya asked to move the meeting to Friday at 2 PM.
+single_rule,4,hard,1,True,4,1731,3.7,The marketing budget increased by 25% from Q2 to Q3.
+single_rule,5,medium,1,True,4,976,2.7,"The average salary in the Engineering department is $100,000."
+single_rule,6,easy,1,True,3,664,1.9,"West's revenue in January was $18,000."
+single_rule,7,easy,1,True,3,770,2.7,Dina works in the Sales department.
+single_rule,8,easy,1,True,3,644,1.8,"Ben's salary is $70,000."
+single_rule,9,easy,1,True,8,4352,7.2,"The marketing budget for Q3 is $40,000."
+single_rule,10,easy,1,True,3,664,1.8,"North's revenue in February was 11,000."
+single_rule,11,easy,1,True,3,1054,2.9,The Product demo is in Room C.
+single_rule,12,easy,1,True,3,666,1.9,There are 25 chairs in the inventory.
+single_rule,13,easy,1,True,3,786,2.5,The unit price of a Monitor is $200.
+single_rule,14,easy,1,True,3,833,2.4,The Budget review is scheduled for **Thursday**.
+single_rule,15,medium,1,True,4,997,3.0,The total number of Electronics items in the inventory is 35.
+single_rule,16,medium,1,True,4,1010,2.9,"The total value of all Laptops is $10,800."
+single_rule,17,medium,1,True,4,975,3.0,"The total salary of all employees is $335,000."
+single_rule,18,medium,1,True,4,1001,2.7,"The total revenue for all regions in January was 39,000."
+single_rule,19,medium,1,False,5,1465,4.3,The average unit price of Furniture items is approximately $175.76.
+single_rule,20,medium,1,True,4,1217,3.4,"The total salary of Carlos's department minus the total salary of Dina's department is $135,000."
+single_rule,21,medium,1,True,4,1242,3.7,The Monitor quantity minus the average quantity of Laptops and Printers is 12.5.
+single_rule,22,hard,1,False,4,1364,4.7,"I couldn't find the Q3 marketing budget from the files I accessed. It seems that only Ben's salary is available, which is $70,000. Please provide the Q3 marketing budget for comparison, or verify if it is in another file."
+single_rule,23,hard,1,True,5,2473,4.0,"The Q4 marketing budget will be $48,000."
+single_rule,24,hard,1,True,4,1072,3.6,"The total value of all items in the inventory is $21,350."
+single_rule,25,hard,1,True,3,841,2.9,"The events scheduled in the calendar are:
+
+- November 2, 2026: Team standup at 09:00 (Room A)
+- November 3, 2026: Client call at 14:00 (Room B)
+- November 5, 2026: Budget review at 11:00 (Room A)
+- November 6, 2026: Product demo at 15:00 (Room C)
+
+Please provide the new day for the meeting to identify the conflicting event."
+single_rule,26,hard,1,False,4,1300,3.8,"The total revenue of the region with the highest January revenue, minus the total value of all Electronics in the inventory, is $2450."
+single_rule,27,hard,1,True,4,1258,3.2,"The total cost for buying one Laptop and one Monitor for each Engineering employee is $2,200."
+single_rule,28,hard,1,True,5,1842,4.6,"The total salary of all employees is $253,000 higher than the total revenue of all regions across all months."
+single_rule,29,hard,1,True,4,1111,3.3,The East region contributed approximately 32.9% of the total revenue.
+single_rule,30,hard,1,False,6,2272,4.8,"After using the Q3 marketing budget to buy all the Chairs and Desks, $76,200 is left over."
+single_rule,1,medium,2,True,6,1710,4.2,"The region with the highest total revenue is the West, with a total of 35,000 in sales."
+single_rule,2,medium,2,True,5,1420,3.5,"The total revenue for East across all months is 27,000."
+single_rule,3,easy,2,True,3,846,6.2,Priya asked to move the meeting to Friday at 2 PM.
+single_rule,4,hard,2,True,4,1731,4.2,The marketing budget increased by 25% from Q2 to Q3.
+single_rule,5,medium,2,True,4,976,3.4,"The average salary in the Engineering department is $100,000."
+single_rule,6,easy,2,True,3,664,2.5,"West's revenue in January was $18,000."
+single_rule,7,easy,2,True,3,770,2.2,Dina works in the Sales department.
+single_rule,8,easy,2,True,3,644,2.4,"Ben's salary is $70,000."
+single_rule,9,easy,2,True,3,1061,2.6,"The marketing budget for Q3 is $40,000."
+single_rule,10,easy,2,True,3,664,2.2,"North's revenue in February was $11,000."
+single_rule,11,easy,2,True,3,1054,2.6,The Product demo is in Room C.
+single_rule,12,easy,2,True,3,666,1.8,There are 25 chairs in the inventory.
+single_rule,13,easy,2,True,3,786,2.0,The unit price of a Monitor is $200.
+single_rule,14,easy,2,True,3,831,2.7,The Budget review is scheduled for Thursday.
+single_rule,15,medium,2,True,4,1001,5.4,The total number of Electronics items in the inventory is 35.
+single_rule,16,medium,2,True,4,1010,2.7,"The total value of all Laptops is $10,800."
+single_rule,17,medium,2,True,4,975,3.2,"The total salary of all employees is $335,000."
+single_rule,18,medium,2,True,4,1001,4.0,"The total revenue for all regions in January was $39,000."
+single_rule,19,medium,2,True,4,1003,3.3,The average unit price of Furniture items is $235.00.
+single_rule,20,medium,2,True,4,1217,4.7,"The total salary of Carlos's department minus the total salary of Dina's department is $135,000."
+single_rule,21,medium,2,True,4,1240,2.9,The Monitor quantity minus the average quantity of Laptops and Printers is 12.5.
+single_rule,22,hard,2,True,7,3076,5.5,"Ben's salary is $30,000 higher than the Q3 marketing budget."
+single_rule,23,hard,2,True,5,2473,5.9,"The Q4 marketing budget will be $48,000."
+single_rule,24,hard,2,True,4,1072,2.7,"The total value of all items in the inventory is $21,350."
+single_rule,25,hard,2,False,3,771,2.0,"To determine which event is already scheduled on the new day, I need to know the specific day Priya wants to move the meeting to. Please provide that information."
+single_rule,26,hard,2,False,4,1297,3.4,"The total revenue of the region with the highest January revenue, minus the total value of all Electronics in the inventory, is **2450**."
+single_rule,27,hard,2,True,4,1257,3.1,"The total cost for one Laptop and one Monitor for each Engineering employee is $2,200."
+single_rule,28,hard,2,True,5,1816,4.2,"The total salary of all employees is $253,000 higher than the total revenue of all regions across all months."
+single_rule,29,hard,2,True,4,1370,3.3,Approximately 32.9% of total revenue came from the East region.
+single_rule,30,hard,2,False,6,2267,4.7,"After purchasing all the Chairs and Desks in the inventory using the Q3 marketing budget, $76,200 would be left over."
+single_rule,1,medium,3,True,4,1108,3.9,"The West region had the highest total revenue of 35,000."
+single_rule,2,medium,3,True,5,1420,3.2,"The total revenue for East across all months is 27,000."
+single_rule,3,easy,3,True,3,848,2.7,Priya asked to move the meeting from Thursday to Friday at 2 PM.
+single_rule,4,hard,3,True,7,3142,4.7,The marketing budget increased by 25% from Q2 to Q3.
+single_rule,5,medium,3,True,4,976,3.0,"The average salary in the Engineering department is $100,000."
+single_rule,6,easy,3,True,3,664,2.5,"West's revenue in January was $18,000."
+single_rule,7,easy,3,True,3,770,2.0,Dina works in the Sales department.
+single_rule,8,easy,3,True,3,644,1.8,"Ben's salary is $70,000."
+single_rule,9,easy,3,True,4,1302,3.2,"The marketing budget for Q3 is $40,000."
+single_rule,10,easy,3,True,3,664,2.1,"North's revenue in February was $11,000."
+single_rule,11,easy,3,True,3,822,2.2,The Product demo is in Room C.
+single_rule,12,easy,3,True,3,666,1.9,There are 25 chairs in the inventory.
+single_rule,13,easy,3,True,3,786,2.3,The unit price of a Monitor is $200.
+single_rule,14,easy,3,True,3,864,2.7,"The Budget review was originally scheduled for Thursday. However, there is a request to move it to Friday at 2 PM. So, it is likely that the Budget review will be on **Friday**."
+single_rule,15,medium,3,True,4,1013,3.1,There are a total of 35 Electronics items in the inventory.
+single_rule,16,medium,3,True,4,1010,2.4,"The total value of all Laptops is $10,800."
+single_rule,17,medium,3,True,4,975,3.1,"The total salary of all employees is $335,000."
+single_rule,18,medium,3,True,4,1001,2.6,"The total revenue for all regions in January was $39,000."
+single_rule,19,medium,3,False,4,1024,2.5,The average unit price of Furniture items is approximately $175.76.
+single_rule,20,medium,3,True,4,1217,3.3,"The total salary of Carlos's department minus the total salary of Dina's department is $135,000."
+single_rule,21,medium,3,True,4,1113,3.0,The Monitor quantity minus the average quantity of Laptops and Printers is 12.5.
+single_rule,22,hard,3,True,7,3076,5.6,"Ben's salary is $30,000 higher than the Q3 marketing budget."
+single_rule,23,hard,3,True,5,2473,4.4,"The Q4 marketing budget will be $48,000."
+single_rule,24,hard,3,True,4,1056,2.9,"The total value of all items in the inventory is $21,350."
+single_rule,25,hard,3,False,3,770,2.6,"To find out which event is scheduled on the new day, I need the specific day Priya wants to move the meeting to. Can you provide that information?"
+single_rule,26,hard,3,False,4,1296,3.1,"The total revenue of the region with the highest January revenue, minus the total value of all Electronics in the inventory, is $2450."
+single_rule,27,hard,3,True,4,1244,3.0,"The total cost for purchasing one laptop and one monitor for each Engineering employee is $2,200."
+single_rule,28,hard,3,True,5,1842,4.5,"The total salary of all employees is $253,000 higher than the total revenue of all regions across all months."
+single_rule,29,hard,3,True,5,1566,3.7,The percentage of total revenue from the East region is 32.9%.
+single_rule,30,hard,3,False,6,2252,5.0,"If the Q3 marketing budget is used to buy all the chairs and desks in the inventory, there would be $76,200 left over."

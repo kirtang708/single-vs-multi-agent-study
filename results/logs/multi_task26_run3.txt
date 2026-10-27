@@ -1,0 +1,17 @@
+  🗺️ Plan:
+1. Read the **sales.csv** file to extract January revenue data for each region and identify the region with the highest January revenue.
+2. Calculate the total revenue for that region based on the information gathered from the sales data.
+3. Read the **inventory.csv** file to find the total value of all Electronics in the inventory.
+4. Subtract the total value of Electronics from the total revenue of the identified region.
+5. Compile the results to present the final calculation.
+
+     🔧 list_files({})
+     🔧 list_files({})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 calculator({'expression': '18000'})
+     🔧 calculator({'expression': '(12*900) + (20*200) + (3*250)'})
+     🔧 calculator({'expression': '18000 - 15550'})
+  👷 Worker answer: The total revenue of the region with the highest January revenue, minus the total value of all Electronics in the inventory, is **2450**.
+  🔍 Checker: OK
+

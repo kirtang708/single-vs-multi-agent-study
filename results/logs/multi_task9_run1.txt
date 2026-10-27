@@ -1,0 +1,22 @@
+  🗺️ Plan:
+1. Read the **calendar.csv** file to identify the dates that define Q3 (July, August, September).
+2. Review the **emails.txt** file for any discussions or communicated details about the marketing budget for Q3.
+3. Check the **employees.csv** file to see if there are any references to budget allocation for marketing roles or projects during that quarter.
+4. Analyze the **sales.csv** file to spot any correlations or information about promotion costs that may relate to the marketing budget for that period.
+5. If needed, go through the **inventory.csv** file to see if there are any marketing-related expenses tied to product launches or promotions during Q3.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 read_file({'filename': 'inventory.csv'})
+  👷 Worker answer: 1. From the **calendar.csv** file, we did not get any direct dates defining Q3, but Q3 consists of July, August, and September.
+2. The **emails.txt** file mentions: "The marketing budget for Q3 is $40,000, up from $32,000 in Q2."
+3. The **employees.csv** file lists employees but does not provide information about budget allocation for marketing roles.
+4. The **sales.csv** file provides revenue data but does not include marketing budget details.
+5. The **inventory.csv** file does not mention any marketing-related expenses directly.
+
+The marketing budget for Q3 is **$40,000**.
+  🔍 Checker: OK.
+

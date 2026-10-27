@@ -1,0 +1,7 @@
+  🔧 list_files({}) → calendar.csv, emails.txt, employees.csv, inventory.csv, sale
+  🔧 read_file({'filename': 'calendar.csv'}) → date,day,event,time,room
+2026-11-02,Monday,Team standup,09:0
+  🔧 read_file({'filename': 'emails.txt'}) → From: Priya
+Subject: Meeting change
+Can we move Thursday's m
+  🔧 calculator({'expression': '40000-32000'}) → 8000

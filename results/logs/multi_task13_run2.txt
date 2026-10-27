@@ -1,0 +1,24 @@
+  🗺️ Plan:
+1. Read the **inventory.csv** file to find details about the Monitor, including its total stock and wholesale cost.
+2. Read the **sales.csv** file to check for any records related to Monitor sales, which may provide information on selling price and unit sales.
+3. Cross-reference data from both **inventory.csv** and **sales.csv** to calculate the unit price by dividing the selling price by the number of units sold.
+4. If necessary, review the **emails.txt** file for any communications that may mention pricing details or changes related to Monitors.
+5. Lastly, check the **employees.csv** file to see if there are any notes or internal memos that could shed light on the pricing strategy or adjustments for Monitors.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 calculator({'expression': '200/20'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 read_file({'filename': 'employees.csv'})
+  👷 Worker answer: The unit price of a Monitor is $10.
+  🔍 Checker: The worker's answer is incorrect. The unit price of a Monitor is $200 as indicated in the inventory.csv file. The calculation of $10 is not relevant to the question asked.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 read_file({'filename': 'employees.csv'})
+  👷 Worker answer: The unit price of a Monitor is **$200**, as indicated in the **inventory.csv** file.
+  🔍 Checker: OK
+

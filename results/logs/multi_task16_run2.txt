@@ -1,0 +1,14 @@
+  🗺️ Plan:
+1. Read the **inventory.csv** file to identify the quantity and unit price of all laptops in the inventory.
+2. If the laptop information is not detailed in the inventory.csv, read the **sales.csv** file to cross-check any related data on laptop sales, including quantity sold and unit prices.
+3. Calculate the total value of all laptops by multiplying the quantity by the unit price for each laptop listed.
+4. Verify findings by checking any relevant information in the **employees.csv** and **emails.txt** files that might pertain to laptop sales or inventory management, if necessary. 
+5. Sum the totals from steps 1 and 2 to arrive at the final total value.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 calculator({'expression': '12*900'})
+  👷 Worker answer: The total value of all laptops in inventory is $10,800.
+  🔍 Checker: OK
+

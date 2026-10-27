@@ -1,0 +1,12 @@
+  🗺️ Plan:
+1. Read the `calendar.csv` file to check the schedule for the Product demo and find information on the room assigned for it.
+2. If necessary, read the `emails.txt` file for any relevant correspondence that might mention the location of the Product demo.
+3. Review the `employees.csv` file to identify any key personnel involved in the Product demo, as they might have additional insights on the location.
+4. Check the `inventory.csv` file to see if there are any resources related to the Product demo that might indicate the room.
+5. If no information is found, read the `sales.csv` file as a last resort, in case there are details related to the demo that could hint at the location.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'calendar.csv'})
+  👷 Worker answer: The Product demo is scheduled for **Room C** on **Friday, November 6, 2026**.
+  🔍 Checker: OK
+

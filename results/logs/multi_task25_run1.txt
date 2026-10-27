@@ -1,0 +1,30 @@
+  🗺️ Plan:
+1. Read the `calendar.csv` file to check the existing events and their scheduled days.
+2. Identify Priya's meeting details in the `emails.txt` file to determine the new day to which the meeting is being moved.
+3. Cross-reference the new day with the events listed in `calendar.csv` to find out which event is already scheduled on that day.
+4. If needed, review `employees.csv` to check for any employee schedules that might be relevant to the meeting or conflicts.
+5. Finally, ensure no information is missed by briefly checking `inventory.csv` and `sales.csv`, though they likely won't contain relevant meeting information.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 calculator({'expression': '(40000-32000)/32000*100'})
+     🔧 calculator({'expression': '2026-11-06'})
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+  👷 Worker answer: 1. **Events in the calendar**:
+   - Monday, 2026-11-02: Team standup at 09:00 (Room A)
+   - Tuesday, 2026-11-03: Client call at 14:00 (Room B)
+   - Thursday, 2026-11-05: Budget review at 11:00 (Room A)
+   - Friday, 2026-11-06: Product demo at 15:00 (Room C)
+
+2. **Priya's meeting details**:
+   - She wants to move Thursday's meeting to **Friday at 2 PM**.
+
+3. **Cross-referencing events**:
+   - On **Friday, 2026-11-06**, there is already a scheduled event: **Product demo at 15:00 (Room C)**.
+
+**Final answer**: The event already scheduled on Friday (2026-11-06) is the **Product demo at 15:00**.
+  🔍 Checker: OK
+

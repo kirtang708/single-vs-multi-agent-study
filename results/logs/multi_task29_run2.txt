@@ -1,0 +1,17 @@
+  🗺️ Plan:
+1. Read the **sales.csv** file to obtain the total revenue data for all regions.
+2. Filter or identify the revenue data specifically for the East region within the **sales.csv** file.
+3. Calculate the total revenue for all regions and the revenue for the East region from the data obtained in step 1 and step 2.
+4. Use the totals from step 3 to compute the percentage of total revenue that came from the East region.
+5. Round the final percentage value to one decimal place.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 calculator({'expression': '12000 + 15000 + 18000 + 17000 + 9000 + 11000'})
+     🔧 calculator({'expression': '12000 + 15000'})
+     🔧 calculator({'expression': '(27000 / 82000) * 100'})
+     🔧 calculator({'expression': 'round(32.926829268292686, 1)'})
+     🔧 calculator({'expression': '(27000 / 82000) * 100'})
+  👷 Worker answer: The percentage of total revenue that came from the East region is approximately 32.9%.
+  🔍 Checker: The worker's answer is correct, and the calculations support it. The percentage of total revenue from the East region is approximately 32.9%. OK.
+

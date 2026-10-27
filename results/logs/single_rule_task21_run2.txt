@@ -1,0 +1,9 @@
+  🔧 list_files({}) → calendar.csv, emails.txt, employees.csv, inventory.csv, sale
+  🔧 read_file({'filename': 'inventory.csv'}) → item,category,quantity,unit_price
+Laptop,Electronics,12,900
+
+  🔧 read_file({'filename': 'sales.csv'}) → region,month,revenue
+East,Jan,12000
+West,Jan,18000
+North,Jan
+  🔧 calculator({'expression': '20 - ((12 + 3) / 2)'}) → 12.5

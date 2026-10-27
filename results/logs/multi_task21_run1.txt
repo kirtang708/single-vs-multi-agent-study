@@ -1,0 +1,14 @@
+  🗺️ Plan:
+1. Read the **inventory.csv** file to find the quantity of Monitors.
+2. Read the **inventory.csv** file again to find the quantities of Laptops and Printers.
+3. Calculate the average quantity of Laptops and Printers from the data obtained in step 2.
+4. Subtract the average quantity of Laptops and Printers (from step 3) from the Monitor quantity (from step 1).
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 calculator({'expression': '(12+3)/2'})
+     🔧 calculator({'expression': '20-7.5'})
+  👷 Worker answer: The result of Monitor quantity minus the average quantity of Laptops and Printers is **12.5**.
+  🔍 Checker: OK
+

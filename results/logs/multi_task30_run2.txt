@@ -1,0 +1,22 @@
+  🗺️ Plan:
+1. **Read the `inventory.csv` file** to find out the prices and quantities of the Chairs and Desks available in the inventory. 
+2. **Read the `calendar.csv` file** to identify the duration of Q3, ensuring clarity about the time frame for the marketing budget. 
+3. **Look for the Q3 marketing budget amount in the `emails.txt` or `employees.csv` file** (whichever seems more likely based on typical communications about budget). 
+4. **Calculate the total cost of purchasing all Chairs and Desks** from the inventory using the data gathered from step 1 and subtract it from the Q3 marketing budget obtained in step 3.
+5. **Determine the leftover amount** by using the result from step 4.
+
+     🔧 list_files({})
+     🔧 list_files({})
+     🔧 list_files({})
+     🔧 list_files({})
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 calculator({'expression': '(8*350)+(25*120)'})
+     🔧 calculator({'expression': '40000-((8*350)+(25*120))'})
+  👷 Worker answer: The total cost of purchasing all Chairs and Desks is $5,800. After using the Q3 marketing budget of $40,000, the leftover amount is $34,200. 
+
+Final answer: $34,200.
+  🔍 Checker: OK
+

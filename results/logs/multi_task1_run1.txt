@@ -1,0 +1,18 @@
+  🗺️ Plan:
+1. Read the `sales.csv` file to review its structure and identify how revenue is presented (e.g., columns for region and sales figures).
+2. Calculate the total revenue for each region by aggregating the relevant sales data from the `sales.csv` file.
+3. Identify the region with the highest total revenue from the computed totals in the previous step.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 calculator({'expression': '12000 + 15000'})
+     🔧 calculator({'expression': '18000 + 17000'})
+     🔧 calculator({'expression': '9000 + 11000'})
+  👷 Worker answer: The total revenue for each region is as follows:
+- East: 27,000
+- West: 35,000
+- North: 20,000
+
+The region with the highest total revenue is the **West** region.
+  🔍 Checker: OK
+

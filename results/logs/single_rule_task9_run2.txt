@@ -1,0 +1,16 @@
+  🔧 list_files({}) → calendar.csv, emails.txt, employees.csv, inventory.csv, sale
+  🔧 read_file({'filename': 'calendar.csv'}) → date,day,event,time,room
+2026-11-02,Monday,Team standup,09:0
+  🔧 read_file({'filename': 'emails.txt'}) → From: Priya
+Subject: Meeting change
+Can we move Thursday's m
+  🔧 read_file({'filename': 'employees.csv'}) → name,department,salary
+Asha,Engineering,95000
+Ben,Marketing,
+  🔧 read_file({'filename': 'inventory.csv'}) → item,category,quantity,unit_price
+Laptop,Electronics,12,900
+
+  🔧 read_file({'filename': 'sales.csv'}) → region,month,revenue
+East,Jan,12000
+West,Jan,18000
+North,Jan

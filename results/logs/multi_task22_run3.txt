@@ -1,0 +1,24 @@
+  🗺️ Plan:
+1. Read the **employees.csv** file to find Ben's salary and any relevant information about employees.
+2. Read the **calendar.csv** file to gather information about the quarters and their respective timelines if needed.
+3. Read the **sales.csv** file to determine if it contains information related to the budget for Q3, specifically for the marketing budget.
+4. If not enough information is found in the previous files, read **emails.txt** to look for any communications regarding Ben's salary or the Q3 marketing budget.
+5. Calculate the difference between Ben's salary and the Q3 marketing budget using the data gathered.
+
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 calculator({'expression': '70000-40000'})
+  👷 Worker answer: Ben's salary is $30,000 higher than the Q3 marketing budget.
+  🔍 Checker: The worker's answer contains a small arithmetic error. The calculated difference between Ben's salary and the Q3 marketing budget is $30,000, which is correct, but the worker stated it as $30,000 higher instead of $30,000 higher. Therefore, the answer is correct, but the phrasing is slightly misleading, as it should clarify Ben's salary compared to the budget.
+
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 list_files({})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 calculator({'expression': '70000 - 40000'})
+  👷 Worker answer: Ben's salary is $30,000 higher than the Q3 marketing budget.
+  🔍 Checker: OK
+

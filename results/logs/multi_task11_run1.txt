@@ -1,0 +1,18 @@
+  🗺️ Plan:
+1. Read the **calendar.csv** file to check for any scheduled meetings or events related to the product demo, as it may indicate the room location.
+2. Inspect the **emails.txt** file for any emails mentioning the product demo and possibly specifying the room number.
+3. Review the **employees.csv** file to see if there's a contact person for the product demo, as they might provide information about the room.
+4. Check the **inventory.csv** file to see if any equipment related to the product demo is listed, which might also mention the demo location.
+5. Look at the **sales.csv** file to see if there are any references to the product demo that could provide clues about the room.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+  👷 Worker answer: The product demo is scheduled for **Friday** at **3:00 PM** in **Room C** according to the **calendar.csv** file. 
+
+Final Answer: Room C
+  🔍 Checker: OK.
+

@@ -1,0 +1,20 @@
+  🗺️ Plan:
+1. Read the **calendar.csv** file to check for any scheduled events or meetings that mention the Product demo, along with the associated room details.
+2. If the calendar does not provide sufficient information, read the **emails.txt** file to look for any email conversations or announcements regarding the Product demo location.
+3. As a precaution, read through the **employees.csv** file to identify any employees who might be involved with the Product demo and could provide additional context regarding the room.
+4. Additionally, review the **inventory.csv** and **sales.csv** files to see if there are any related products or events that reference the Product demo, but focus primarily on the first three files for room information.
+5. Compile the findings from these files to determine the location of the Product demo.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+  👷 Worker answer: The details from the **calendar.csv** file indicate that the Product demo is scheduled for **Friday**, **November 6, 2026**, at **3:00 PM** in **Room C**. 
+
+The **emails.txt** and **employees.csv** files did not provide any additional relevant information about the Product demo location. The **inventory.csv** and **sales.csv** files also did not reference the Product demo.
+
+Final answer: The Product demo is in **Room C**.
+  🔍 Checker: OK.
+

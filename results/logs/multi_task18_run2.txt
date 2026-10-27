@@ -1,0 +1,16 @@
+  🗺️ Plan:
+1. Read the **calendar.csv** file to confirm the structure and format of dates to filter for January data.
+2. Read the **sales.csv** file to find revenue data and ensure it includes a column for the regional breakdown and the date of the sale.
+3. Filter the sales data for the month of January and sum the revenue across all regions.
+4. Cross-check any information related to regions in the **employees.csv** file to ensure all sales are assigned to the correct regions.
+5. Review **emails.txt** for any additional context or details that may impact revenue calculations but primarily focus on the sales and calendar files for revenue computation.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 calculator({'expression': '12000 + 18000 + 9000'})
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+  👷 Worker answer: The total revenue for all regions in January is **$39,000**.
+  🔍 Checker: OK
+

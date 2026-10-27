@@ -1,0 +1,3 @@
+  🔧 list_files({}) → calendar.csv, emails.txt, employees.csv, inventory.csv, sale
+  🔧 read_file({'filename': 'calendar.csv'}) → date,day,event,time,room
+2026-11-02,Monday,Team standup,09:0

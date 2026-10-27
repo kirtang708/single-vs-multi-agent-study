@@ -1,0 +1,12 @@
+  🗺️ Plan:
+1. Read the `employees.csv` file to find information about Dina, including her department.
+2. Check `emails.txt` for any mention of Dina that may include her department or related information.
+3. If necessary, read `calendar.csv` to see if there are any work-related events associated with Dina that might indicate her department.
+4. Review the `inventory.csv` and `sales.csv` files for any references to Dina that might provide insights into her department, just in case the earlier files do not have sufficient information.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+  👷 Worker answer: Dina works in the Sales department according to the `employees.csv` file. The `emails.txt` file did not contain any relevant information about her department.
+  🔍 Checker: OK
+

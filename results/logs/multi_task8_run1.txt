@@ -1,0 +1,21 @@
+  🗺️ Plan:
+1. Read the "employees.csv" file to find Ben's employee record and any information related to his salary.
+2. If needed, check the "emails.txt" file for any correspondence regarding Ben's salary or employment details that may provide additional context.
+3. Review the "calendar.csv" file in case it includes any notes or events related to salary discussions or adjustments for Ben.
+4. Look at the "sales.csv" file to see if there are any performance-linked salary components or commissions that are applicable to Ben’s role.
+5. Compile the information obtained from the above files to determine Ben's total salary.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'employees.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'sales.csv'})
+  👷 Worker answer: From the information gathered:
+
+1. Ben's salary from the **employees.csv** file is $70,000.
+2. There are no relevant salary discussions or adjustments for Ben in the **emails.txt** or **calendar.csv** files.
+3. The **sales.csv** file does not contain any specific performance-based salary components directly linked to Ben.
+
+Therefore, Ben's total salary is **$70,000**.
+  🔍 Checker: OK
+

@@ -1,0 +1,23 @@
+  🗺️ Plan:
+1. Read "inventory.csv" to determine the total cost of all Chairs and Desks available in the inventory.
+2. Read "calendar.csv" to confirm Q3 dates and any relevant deadlines related to the budget.
+3. Check "emails.txt" for any communication regarding the Q3 marketing budget to identify the budget amount.
+4. Calculate the total cost of Chairs and Desks from the inventory.
+5. Subtract the total cost of Chairs and Desks from the Q3 marketing budget to find out how much money is left over.
+
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 calculator({'expression': '(8*350)+(25*120)'})
+     🔧 calculator({'expression': '40000-5800'})
+  👷 Worker answer: The amount of money left over after using the Q3 marketing budget to buy all the Chairs and Desks is $34,200.
+  🔍 Checker: The worker's answer is incorrect because they calculated the leftover amount as $34,200, but the calculation from the tools shows that the correct amount left over is $34,200. The worker should have reported the amount accurately as per the tools' results.
+
+     🔧 read_file({'filename': 'inventory.csv'})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 calculator({'expression': '(8*350)+(25*120)'})
+     🔧 calculator({'expression': '40000 - ((8*350)+(25*120))'})
+  👷 Worker answer: The total cost of all Chairs and Desks in the inventory is $5,800. The Q3 marketing budget is $40,000, so the money left over after the purchase is $34,200.
+  🔍 Checker: OK
+

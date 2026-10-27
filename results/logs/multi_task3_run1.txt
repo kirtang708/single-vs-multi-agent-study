@@ -1,0 +1,13 @@
+  🗺️ Plan:
+1. Read the `emails.txt` file to find any communication regarding the meeting reschedule from Priya.
+2. Check the `calendar.csv` file to see if there are any updates or entries related to the meeting time and day requested by Priya.
+3. Review the `employees.csv` file to confirm Priya's details as necessary while gathering the context of the meeting.
+4. If the above files do not provide clear information, skim through all files to ensure no details are overlooked, though the first two files are the most likely to contain the relevant information.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'emails.txt'})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 read_file({'filename': 'employees.csv'})
+  👷 Worker answer: Priya requested to move the meeting from Thursday to Friday at 2 PM.
+  🔍 Checker: OK
+

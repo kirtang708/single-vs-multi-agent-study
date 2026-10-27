@@ -1,0 +1,18 @@
+Single agent – Task 4
+Failure type: Gave up early / didn't check all files
+What happened: Read sales.csv, not emails.txt. Said "no information."
+
+Single agent – Task 4
+Saw all 3 files (list_files), but only read sales.csv and employees.csv.
+Never opened emails.txt, where the budget info was.
+Even with "check every file" in the instructions, it still skipped it.
+Failure type: Skipped a file / didn't follow instructions.
+
+
+It never opened emails.txt, even though it knew the file existed and the instructions said “check every file.”
+
+Why it probably chose these files:
+
+“budget” sounds like money → so it looked in sales.csv
+“marketing” appears in employees.csv (Ben works in Marketing) → so it looked there
+“emails.txt” doesn’t sound like it has budget data → so it skipped it

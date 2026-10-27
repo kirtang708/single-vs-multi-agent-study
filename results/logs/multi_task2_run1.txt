@@ -1,0 +1,14 @@
+  🗺️ Plan:
+1. Read the `sales.csv` file to find the revenue information and to identify which entries correspond to the "East" region.
+2. Read the `calendar.csv` file to understand the months and their respective identifiers, which will be helpful for aggregating revenue by month.
+3. Filter the data from `sales.csv` to include only the sales related to the "East" region and sum the revenue across all months. 
+4. If needed, read `employees.csv` to check if there are any specific employee or sales data tagged to the East region.
+5. Finally, check `emails.txt` as a last resort in case there are any communications related to sales in the East that might provide context or additional revenue figures.
+
+     🔧 list_files({})
+     🔧 read_file({'filename': 'sales.csv'})
+     🔧 read_file({'filename': 'calendar.csv'})
+     🔧 calculator({'expression': '12000 + 15000'})
+  👷 Worker answer: The total revenue for the East region across all months is $27,000.
+  🔍 Checker: OK
+
